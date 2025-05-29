@@ -10,16 +10,24 @@ A simple Flask application that displays a greeting message, deployed on **Googl
 - Auto-scaling enabled with minimal configuration
 
 ## 🏗️ Folder Structure
-.
 ├── app.py
+
 ├── app.yaml
+
 ├── requirements.txt
+
 ├── templates/
+
 │ └── index.html
+
 ├── Dockerfile
+
 ├── .dockerignore
+
 ├── .gitignore
+
 ├── .gcloudignore
+
 └── README.md
 
 ## 🔧 How to Run Locally
