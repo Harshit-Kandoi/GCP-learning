@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+env/
+venv/
+
+# VS Code
+.vscode/
+
+# Deployment
+.gcloudignore
+.dockerignore
+
+# OS junk
+Thumbs.db
