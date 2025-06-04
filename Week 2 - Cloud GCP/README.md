@@ -9,21 +9,21 @@ This is a simple GCP-based proof of concept project demonstrating:
 ---
 
 ## 📁 Project Structure
-.
+
 ├── app.py # Main Flask application
-.
+
 ├── app.yaml # GCP deployment config
-.
+
 ├── requirements.txt # Python dependencies
-.
+
 ├── .gitignore # Files to ignore in Git
-.
+
 ├── templates/
-.
+
 │ ├── index.html # Homepage (calls Hello API)
-.
+
 │ └── upload.html # File upload form
-.
+
 ├── your-service-key.json # Service account key (do NOT push to GitHub)
 
 
