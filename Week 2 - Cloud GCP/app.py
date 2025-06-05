@@ -11,7 +11,7 @@ def upload_file():
             file = request.files["file"]
             if file:
                 client = storage.Client()
-                bucket = client.bucket("your-bucket-name")  # replace with your bucket name
+                bucket = client.bucket("flask-poc-learning")  # replace with your bucket name
                 blob = bucket.blob(file.filename)
                 blob.upload_from_file(file)
                 return f"✅ File '{file.filename}' uploaded to GCS."
